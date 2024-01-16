@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Barber-Shop</title>
+</head>
+<body>
+
+    <header class="menu">
+        <div class="menu-container">
+            <a class="menu-logo" href="#"><img src="img/logo1.png" alt="logo"></a>
+
+            <nav id="my-menu-nav" class="menu-nav">
+                <ul>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#conceito">conceito</a></li>
+                    <li><a href="#servico">serviço</a></li>
+                    <li><a class="menu-agendamento-btn" href="#agendamento"><i class="fab fa-whatsapp"></i> agendamento</a></li>
+                   
+                        <label for="switch" class="dark-mode-container">
+                            <input type="checkbox" id="switch">
+                        </label>
+                        
+                </ul>
+            </nav>
+            <span class="menu-open" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
+
+    </header>
+
+    <main class="intro" id="home">
+        <div class="intro-container">
+            <h1>descubra um</h1>
+            <h1>novo <strong>estilo.</strong> </h1>
+        </div>
+ 
+    </main>
+
+    <section class="historia" id="conceito">
+        <div class="historia-container">
+
+            <h1>O Conceito</h1>
+
+            <img src="img/img2.jpg" alt="historia">
+            <p>Inspirada nas antigas barbearias nova-iorquinas típicas de filmes da máfia das décadas de 40, 50 e 60, a Barbearia chega com a intenção de resgatar a cultura masculina, perdida ao longo dos anos, em que os homens se encontravam para fazer a barba à navalha e cortar os cabelos enquanto fumavam seus charutos, bebiam e conversavam. <br><br>
+                
+            Entre toalhas quentes e massagem facial, os melhores cremes e espumas preparam o rosto dos nossos clientes. </p>
+        </div>
+
+    </section>
+
+    <section class="servico" id="servico">
+        <div class="servico-container">
+            <h1>serviço</h1>
+            <p>Veja a nosso tabela de serviços e preços</p>
+
+            
+            <div class="tabela">
+                <div class="tabela1">
+                    <p><strong>BARBA</strong> ........................................R$XX</p>
+                    <p><strong>CABELO</strong> .......................................R$XX</p>
+                    <p><strong>BARBA + CABELO</strong> .......................R$XX</p>
+                    <p><strong>HIDRATAÇÃO</strong> ..............................R$XX</p>
+                    <p><strong>PINTURA</strong> ....................................R$XX</p>
+                    <p><strong>LIMPEZA DE PELE</strong> ......................R$XX</p>
+                </div>
+
+                <div class="tabela1">
+                    <p><strong>CORTE NA MAQUINA</strong> ..................R$xx</p>
+                    <p><strong>SOMBRANCELHA</strong> ........................R$xx</p>
+                    <p><strong>ALISAMENTO</strong> ..............................R$xx</p>
+                    <p><strong>PROGRESSIVA</strong> .............................R$xx</p>
+                    <p><strong>LUZES</strong> .........................................R$xx</p>
+                    <p><strong>PÉ</strong> ....................................R$xx</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="agendamento" id="agendamento">
+        <div class="agendamento-container">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1705415686930!6m8!1m7!1s9MooJ40LDNoeGAHpaZBZFg!2m2!1d-22.89598858354716!2d-43.12428262076605!3f153.3912196677385!4f7.3668204791569565!5f0.4000000000000002" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <div class="agendamento-item">
+                <h1>AGENDE AGORA PELO WHATSAPP</h1>
+                <p>click agora mesmo no botão abaixo, e agende seu horário.</p>
+
+                <a href="#"><i class="fab fa-whatsapp"></i> agende seu horario</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <img src="img/footer.png" alt="barber-shop">
+
+            <div class="footer-item">
+                <h1>Endereço</h1>
+                <p>Rua xxxxxx 5255, bairro xx</p>
+            </div>
+
+            <div class="footer-item">
+                <h1>Sugestões</h1>
+                <a>contato@contato.com</a>
+            </div>
+
+            <div class="footer-social">
+                <h1>Redes sociais</h1>
+                <ul>
+                    <li><a href="#" name="facebook"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#" alt="instagram"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#" alt="linkedin"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="#" alt="tiktok"><i class="fab fa-tiktok"></i></a></li>
+                </ul>
+            </div>
+
+
+            
+        </div>
+    </footer>
+    
+            <div class="criador">
+                <p>Desenvolvedor - <strong>Guilherme Neto</strong> - 2024</p>
+            </div>
+
+
+            
+
+<!-- formatação js-->
+
+<script src="formatacao.js"></script>
+
+
+</body>
+</html>
